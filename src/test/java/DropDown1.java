@@ -35,5 +35,6 @@ public class DropDown1 {
         dropdown.selectByValue("IND");
         dropdown.selectByIndex(1);
         dropdown.selectByVisibleText("Indonesia");
+        driver.close();
     }
 }

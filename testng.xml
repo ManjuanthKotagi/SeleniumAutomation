@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SeleniumAutomationSuite" parallel= "classes" thread-count="2">
+    <test name="SeleniumAutomationTests">
+        <classes>
+            <class name="DropDown1"/>
+            <class name="DropDown2"/>
+            <class name="NewCode"/>
+            <class name="Program"/>
+            <class name="TextBox"/>
+            <class name="WebTable"/>
+            <class name="WindowHandles1"/>
+        </classes>
+    </test>
+</suite>

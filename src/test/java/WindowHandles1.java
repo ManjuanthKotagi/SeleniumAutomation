@@ -37,5 +37,6 @@ public class WindowHandles1 {
         Assert.assertEquals(driver.getTitle(), "Simple Page", "You are not in the page");
         Assert.assertEquals(driver.getWindowHandle().toString(), windowsToSwitch[1], "Both are different");
         System.out.println(driver.getWindowHandle().toString());
+        driver.close();
     }
 }
