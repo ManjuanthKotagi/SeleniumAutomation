@@ -21,5 +21,6 @@ public class DropDown2 {
         js.executeScript("arguments[0].scrollIntoView(true);", scroll);
 
         driver.findElement(By.xpath("(//div[@class=' css-1hwfws3'])[3]")).click();
+        driver.close();
     }
 }

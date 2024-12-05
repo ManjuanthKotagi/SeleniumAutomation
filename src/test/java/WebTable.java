@@ -73,5 +73,7 @@ public class WebTable {
         for (Map<String, String> country : allCountries) {
             System.out.println(country);
         }
+
+        driver.close();
     }
 }

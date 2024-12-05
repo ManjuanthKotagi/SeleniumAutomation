@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-05T15:05:59 IST" name="SeleniumAutomationSuite" finished-at="2024-12-05T15:06:47 IST" duration-ms="48593">
+    <groups>
+    </groups>
+    <test started-at="2024-12-05T15:05:59 IST" name="SeleniumAutomationTests" finished-at="2024-12-05T15:06:47 IST" duration-ms="48593">
+      <class name="NewCode">
+        <test-method signature="reverseInteger()[pri:0, instance:NewCode@4facf68f]" started-at="2024-12-05T15:06:11 IST" name="reverseInteger" finished-at="2024-12-05T15:06:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reverseInteger -->
+      </class> <!-- NewCode -->
+      <class name="Program">
+        <test-method signature="tableTraverse()[pri:0, instance:Program@76508ed1]" started-at="2024-12-05T15:06:11 IST" name="tableTraverse" finished-at="2024-12-05T15:06:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableTraverse -->
+      </class> <!-- Program -->
+      <class name="DropDown1">
+        <test-method signature="testMethod()[pri:0, instance:DropDown1@50a638b5]" started-at="2024-12-05T15:05:59 IST" name="testMethod" finished-at="2024-12-05T15:06:12 IST" duration-ms="12699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- DropDown1 -->
+      <class name="WebTable">
+        <test-method signature="webTable()[pri:0, instance:WebTable@15c43bd9]" started-at="2024-12-05T15:06:11 IST" name="webTable" finished-at="2024-12-05T15:06:47 IST" duration-ms="36511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTable -->
+      </class> <!-- WebTable -->
+      <class name="DropDown2">
+        <test-method signature="dropDownSelect()[pri:0, instance:DropDown2@4ac3c60d]" started-at="2024-12-05T15:05:59 IST" name="dropDownSelect" finished-at="2024-12-05T15:06:11 IST" duration-ms="12031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownSelect -->
+      </class> <!-- DropDown2 -->
+      <class name="TextBox">
+        <test-method signature="primeNumberTest()[pri:0, instance:TextBox@41e36e46]" started-at="2024-12-05T15:06:11 IST" name="primeNumberTest" finished-at="2024-12-05T15:06:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- primeNumberTest -->
+      </class> <!-- TextBox -->
+      <class name="WindowHandles1">
+        <test-method signature="windowHandles()[pri:0, instance:WindowHandles1@3d74bf60]" started-at="2024-12-05T15:06:12 IST" name="windowHandles" finished-at="2024-12-05T15:06:15 IST" duration-ms="3224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowHandles -->
+      </class> <!-- WindowHandles1 -->
+    </test> <!-- SeleniumAutomationTests -->
+  </suite> <!-- SeleniumAutomationSuite -->
+</testng-results>
