@@ -23,5 +23,6 @@ public class TextBox {
         addressTextBox.sendKeys("Bangalore");
         password.sendKeys("password");
         submitButton.click();
+        driver.close();
     }
 }
