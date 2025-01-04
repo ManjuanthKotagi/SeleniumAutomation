@@ -1,32 +1,26 @@
 import org.testng.annotations.Test;
 
-import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashSet;
+import java.util.Map;
+import java.util.Set;
+
 
 public class Program {
 
     @Test()
-    public void tableTraverse() {
+    public void programTest() {
+        String str = "Manjunath";
+        char characters[] = str.toCharArray();
+        int size = characters.length;
+        Set<Character> uniqueCharacters = new LinkedHashSet<>();
 
-        String str = "vishnu1234";
-        StringBuilder sb = new StringBuilder();
-
-        char cha[] = str.toCharArray();
-
-        int length = cha.length;
-        int sum = 0;
-
-        for (char c : cha) {
-            if (Character.isDigit(c)) {
-                sb.append(c);
-                int number = Integer.parseInt(String.valueOf(c));
-                sum = sum + number;
-            }
+        for(Character ch : characters) {
+            uniqueCharacters.add(ch);
         }
 
-        System.out.println(sb);
-        System.out.println(sum);
-       // System.out.println(Integer.parseInt(String.valueOf(sum)));
+        StringBuilder uniqueCharacterString = new StringBuilder(uniqueCharacters.toString());
 
-
+        System.out.println("Unique Characters is " + uniqueCharacterString);
     }
 }

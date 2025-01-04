@@ -10,6 +10,7 @@ public class Alerts {
     public void alertsTest() {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
         driver.get("https://www.tutorialspoint.com/selenium/practice/alerts.php");
 
         WebElement alertButton = driver.findElement(By.xpath("//button[text()='Alert']"));
