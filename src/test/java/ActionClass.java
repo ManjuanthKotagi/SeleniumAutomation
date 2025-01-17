@@ -17,5 +17,6 @@ public class ActionClass {
         //moving to the particular element and clicking the button
         Actions actions = new Actions(driver);
         actions.moveToElement(clickMeButton).click(clickMeButton).build().perform();
+        driver.close();
     }
 }
