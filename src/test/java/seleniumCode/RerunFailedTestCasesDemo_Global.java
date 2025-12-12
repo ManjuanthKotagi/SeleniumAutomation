@@ -1,3 +1,5 @@
+package seleniumCode;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -6,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class RerunFailedTestCasesDemo_Global {
 
-    //if this test fails then it will rerun based on the RerunFailedTests_Global file, Also we have to add the listners in testng.xml file.
+    //if this test fails then it will rerun based on the seleniumCode.RerunFailedTests_Global file, Also we have to add the listners in testng.xml file.
     @Test()
     public void textBoxTest() {
         WebDriver driver = new ChromeDriver();

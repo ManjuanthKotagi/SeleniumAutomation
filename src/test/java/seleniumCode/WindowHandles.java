@@ -1,3 +1,5 @@
+package seleniumCode;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -5,13 +7,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.Set;
-
 public class WindowHandles {
 
     @Test()
     public void windowHandleTest() {
-        //Program to handle new tab
+        //seleniumCode.Program to handle new tab
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.tutorialspoint.com/selenium/practice/browser-windows.php");
