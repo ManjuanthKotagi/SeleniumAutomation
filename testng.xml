@@ -1,18 +1,18 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="SeleniumAutomationSuite" parallel= "classes" thread-count="2">
     <listeners>
-        <listener class-name="RerunFailedTests_Global" />
+        <listener class-name="seleniumCode.RerunFailedTests_Global" />
     </listeners>
     <test name="SeleniumAutomationTests">
         <classes>
-<!--            <class name="DropDown1"/>-->
-<!--            <class name="DropDown2"/>-->
-<!--            <class name="NewCode"/>-->
-<!--            <class name="Program"/>-->
-<!--            <class name="TextBox"/>-->
-<!--            <class name="WebTable"/>-->
-<!--            <class name="WindowHandles1"/>-->
-            <class name = "RerunFailedTestCasesDemo_Global"/>
+<!--            <class name="seleniumCode.DropDown1"/>-->
+<!--            <class name="seleniumCode.DropDown2"/>-->
+<!--            <class name="seleniumCode.NewCode"/>-->
+<!--            <class name="seleniumCode.Program"/>-->
+<!--            <class name="seleniumCode.TextBox"/>-->
+<!--            <class name="seleniumCode.WebTable"/>-->
+<!--            <class name="seleniumCode.WindowHandles1"/>-->
+            <class name = "seleniumCode.RerunFailedTestCasesDemo_Global"/>
         </classes>
     </test>
 </suite>
