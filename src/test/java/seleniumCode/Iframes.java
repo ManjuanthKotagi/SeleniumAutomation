@@ -19,7 +19,6 @@ public class Iframes {
 
         WebElement frameElement = driver.findElement(By.xpath("//iframe[@src='new-tab-sample.php']"));
         driver.switchTo().frame(frameElement);
-        //driver.switchTo().frame(0);
 
         String text = driver.findElement(By.tagName("h1")).getText() ;
         System.out.println(" Text is: " + text);

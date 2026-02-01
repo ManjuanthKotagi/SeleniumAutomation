@@ -32,9 +32,9 @@ public class BrokenLinks {
                 connection.connect();
                 int statusCode = connection.getResponseCode();
                 if (statusCode >= 400) {
-                    System.out.println("❌ Broken Link: " + url + " | Status Code: " + statusCode);
+                    System.out.println("Broken Link: " + url + " | Status Code: " + statusCode);
                 } else {
-                    System.out.println("✔ Valid Link: " + url + " | Status Code: " + statusCode);
+                    System.out.println("Valid Link: " + url + " | Status Code: " + statusCode);
                 }
             } catch (IOException e) {
                 throw new RuntimeException(e);
