@@ -18,4 +18,7 @@ public class NewCode {
             System.out.println("Reversed Array is : " + reversedArray[i]);
         }
     }
+
+    public static class ScrollDown {
+    }
 }

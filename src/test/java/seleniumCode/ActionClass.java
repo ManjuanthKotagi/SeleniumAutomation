@@ -18,8 +18,6 @@ public class ActionClass {
         driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
         driver.get("https://www.tutorialspoint.com/selenium/practice/buttons.php");
         WebElement clickMeButton = driver.findElement(By.xpath("//button[@class='btn btn-primary']"));
-
-        //moving to the particular element and clicking the button
         Actions actions = new Actions(driver);
         actions.moveToElement(clickMeButton).click(clickMeButton).build().perform();
         driver.close();
