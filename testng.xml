@@ -1,11 +1,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="SeleniumAutomationSuite" parallel= "classes" thread-count="2">
-    <listeners>
-        <listener class-name="takingScreenshotOfFailedTest.TestListener" />
-    </listeners>
     <test name="SeleniumAutomationTests">
         <classes>
-            <class name = "takingScreenshotOfFailedTest.GooglePageTest"/>
+            <class name = "apiCode.GetAPI"/>
+            <class name="apiCode.PostAPI"/>
+            <class name="apiCode.PutAPI"/>
         </classes>
     </test>
 </suite>
