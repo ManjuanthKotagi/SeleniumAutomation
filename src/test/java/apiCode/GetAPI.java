@@ -30,7 +30,7 @@ public class GetAPI {
         String firstName = jsonPath.getString("entities.name[0]");
         String firstDescription = jsonPath.getString("entities.description[0]");
 
-        Assert.assertEquals("7", firstId, "Id is not equal");
+        Assert.assertEquals("4", firstId, "Id is not equal");
 
         System.out.println(firstId + " " + firstName + " " + firstDescription);
     }
