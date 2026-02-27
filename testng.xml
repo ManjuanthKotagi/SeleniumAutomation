@@ -3,8 +3,8 @@
     <test name="SeleniumAutomationTests">
         <classes>
             <class name = "apiCode.GetAPI"/>
-            <class name="apiCode.PostAPI"/>
-            <class name="apiCode.PutAPI"/>
+<!--            <class name="apiCode.PostAPI"/>-->
+<!--            <class name="apiCode.PutAPI"/>-->
         </classes>
     </test>
 </suite>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="SeleniumAutomation(failed)">
     <classes>
-      <class name="seleniumCode.RightClick">
+      <class name="apiCode.GetAPI">
         <methods>
-          <include name="rightClick"/>
+          <include name="getAPIRequest"/>
         </methods>
-      </class> <!-- seleniumCode.RightClick -->
+      </class> <!-- apiCode.GetAPI -->
     </classes>
   </test> <!-- SeleniumAutomation(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
