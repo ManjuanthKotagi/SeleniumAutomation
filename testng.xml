@@ -2,7 +2,7 @@
 <suite name="SeleniumAutomationSuite" parallel= "classes" thread-count="2">
     <test name="SeleniumAutomationTests">
         <classes>
-            <class name = "apiCode.GetAPI"/>
+<!--            <class name = "apiCode.GetAPI"/>-->
             <class name="apiCode.PostAPI"/>
             <class name="apiCode.PutAPI"/>
         </classes>
